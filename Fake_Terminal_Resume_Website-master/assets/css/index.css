@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#console {
+  font-family: courier, monospace;
+  color: rgb(0, 255, 13);
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-size: 14px;
+}
+
+a {
+  color: rgb(0, 253, 232);
+  text-decoration: none;
+}
+
+#a {
+  color: rgb(0, 255, 13);
+}
+
+#c {
+  color: rgb(0, 163, 204);
+}
+
+#b {
+  color: #f30808;
+}
+
+#k {
+  animation: change 1s;
+}
+#m{
+  color: hsl(60, 100%, 100%);
+}
+
+#op {
+  color: #888888;
+}
+#che {
+  color: rgb(0, 255, 13);
+   
+}
+
+@keyframes change {
+  0% {
+    color: hsl(60, 100%, 100%);
+  }
+  50% {
+    color: hsl(60, 100%, 100%);
+  }
+  99% {
+    color: rgb(0, 0, 0);
+  }
+}
